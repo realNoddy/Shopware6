@@ -1,6 +1,6 @@
 {
-  "name": "swag/theme-skeleton",
-  "description": "Theme skeleton plugin",
+  "name": "swag/shop-feedback",
+  "description": "Theme ShopFeedback",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
@@ -9,9 +9,10 @@
     }
   },
   "extra": {
+    "shopware-plugin-class": "ShopFeedback\\ShopFeedback",
     "label": {
-      "de-DE": "Theme ShopFeedback plugin",
-      "en-GB": "Theme ShopFeedback plugin"
+      "de-DE": "[Theme] ShopFeedback",
+      "en-GB": "[Theme] ShopFeedback"
     }
   }
 }
