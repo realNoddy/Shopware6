@@ -13,7 +13,6 @@
   ],
   "script": [
     "@Storefront",
-    "app/storefront/src/script/feedback.js",
     "app/storefront/dist/storefront/js/shop-feedback.js"
   ],
   "asset": [
