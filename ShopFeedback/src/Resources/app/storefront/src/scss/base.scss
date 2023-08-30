@@ -1,0 +1,91 @@
+@keyframes cart-feedback-jump {
+    0% {
+        color: initial;
+        bottom: 0px;
+    }
+    20% {
+        color: rgb(13, 205, 13);
+        bottom: 5px;
+    }
+    80% {
+        color: rgb(13, 205, 13);
+    }
+    100% {
+        color: initial;
+        bottom: 0px;
+    }
+}
+
+.cart-feedback{
+    .header-cart-total {
+        position: relative;
+        animation: cart-feedback-jump 0.65s;
+    }
+}
+
+.shop-feedback.btn-buy {
+    background-color: $css-shop-feedback-button-color-pressed;
+    border-color: $css-shop-feedback-button-color-pressed;
+    color: $css-shop-feedback-text-color-pressed;
+}
+
+@keyframes item-feedback-show-animation {
+    0% {
+        left: 110%;
+    }
+    10% {
+        left: 0%;
+    }
+    90% {
+        left: 0%;
+    }
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes item-feedback-remove-animation {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 110%;
+    }
+}
+
+div#shop-feedback-notification {
+    width: 300px;
+    position: fixed;
+    top: 15%;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 5px;
+
+    .shop-feedback-item-notification {
+        width: 100%;
+        background-color: #ffffffed;
+        backdrop-filter: blur(3px);
+        padding: 10px;
+        border-left: #00e745d1 solid 5px!important;
+        border-radius: 4px;
+        border: #0000001f 1px solid;
+        box-shadow: -4px 0px 5px #00000021;
+        position: relative;
+        transition: background-color 0.25s;
+    
+        &.notification-show {
+            animation: item-feedback-show-animation 3s;
+            animation-fill-mode: forwards;
+        }
+
+        &.notification-remove {
+            background-color: #ebebebed;
+            animation: item-feedback-remove-animation 0.5s;
+            animation-fill-mode: forwards;
+        }
+    }
+    
+}

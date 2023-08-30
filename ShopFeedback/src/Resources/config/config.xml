@@ -5,21 +5,20 @@
         <title>Configuration</title>
         <title lang="de-DE">Einstellungen</title>
         <input-field type="colorpicker">
-            <name>BetterFeedbackShopButtonColor</name>
+            <name>ShopFeedbackButtonColor</name>
             <label>Pressed button color</label>
             <label lang="de-DE">Farbe des gedrückten Knopfes</label>
-            <!-- placeholder & defaultValue doesnt seem to work with colorpicker -->
             <placeholder>#595959</placeholder>
             <defaultValue>#595959</defaultValue>
-            <copyable>true</copyable>
+            <css>css-shop-feedback-button-color-pressed</css>
         </input-field>
         <input-field type="colorpicker">
-            <name>BetterFeedbackShopTextColor</name>
+            <name>ShopFeedbackTextColor</name>
             <label>Pressed text color</label>
             <label lang="de-DE">Farbe des Textes bei gedrückten Knopfes</label>
             <placeholder>#FFFFFF</placeholder>
             <defaultValue>#FFFFFF</defaultValue>
-            <copyable>true</copyable>
+            <css>css-shop-feedback-text-color-pressed</css>
         </input-field>
     </card>
 </config>
