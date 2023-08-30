@@ -1,5 +1,3 @@
-console.log("Why work?");
-
 import Feedback from "./script/feedback";
 
 const PluginManager = window.PluginManager;

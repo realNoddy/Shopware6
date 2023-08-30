@@ -63,11 +63,12 @@ div#shop-feedback-notification {
     flex-wrap: nowrap;
     align-items: stretch;
     gap: 5px;
+    z-index: 100;
 
     .shop-feedback-item-notification {
         width: 100%;
-        background-color: #ffffffed;
-        backdrop-filter: blur(3px);
+        background-color: #ffffffdb;
+        backdrop-filter: blur(6px);
         padding: 10px;
         border-left: #00e745d1 solid 5px!important;
         border-radius: 4px;
@@ -82,7 +83,7 @@ div#shop-feedback-notification {
         }
 
         &.notification-remove {
-            background-color: #ebebebed;
+            background-color: #eeeeeedb;
             animation: item-feedback-remove-animation 0.5s;
             animation-fill-mode: forwards;
         }
