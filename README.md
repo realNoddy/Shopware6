@@ -1,7 +1,7 @@
 # Shopware6
 v6.5.4.1
 
-##Development environment:
+## Development environment:
 
 ### Windows 10
 
