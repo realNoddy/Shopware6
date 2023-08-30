@@ -1,6 +1,7 @@
 {
   "name": "ShopFeedback",
   "author": "Shopware AG",
+  "previewMedia": "app/storefront/dist/assets/shopfeedbackPreview.png",
   "views": [
      "@Storefront",
      "@Plugins",
