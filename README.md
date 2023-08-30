@@ -34,3 +34,7 @@ volumes:
   dockware_dev_html:
     driver: local
 ```
+
+On my end this docker setup was only running for the first time, when you compose it. 
+If you stop it and try to run it again, it will crash.
+However any other docker image/container I tried, wasnt able to compile the JaveScript files or didnt start at all. 
