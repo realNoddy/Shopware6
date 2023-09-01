@@ -1,0 +1,21 @@
+{
+  "name": "faq/plugin-faq",
+  "description": "ProductFAQ Plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ProductFAQ\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "ProductFAQ\\ProductFAQ",
+    "label": {
+      "de-DE": "ProduktFAQ Plugin",
+      "en-GB": "ProductFAQ plugin"
+    }
+  },
+  "require": {
+    "shopware/core": "6.5.*"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "ProductFAQ": {
+        "General": {
+            "Title": "Product FAQ",
+            "Description": "Create an FAQ for your products"
+        },
+        "Question": {
+            "Add" : "Add question",
+            "Remove": "Remove question"
+        },
+        "Answer": {
+            "Add" : "Add answer",
+            "Remove": "Remove answer"
+        },
+        "Product": {
+            "Add": "Add product",
+            "Remove": "Remove product"
+        }
+    }
+}
