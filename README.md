@@ -1,6 +1,11 @@
 # Shopware6
 v6.5.4.1
 
+
+## ShopFeedback preview
+https://github.com/realNoddy/Shopware6/assets/32793505/7c188066-2b8f-4c73-95b0-616f2e0656ff
+
+
 ## Development environment:
 
 ### Windows 10
