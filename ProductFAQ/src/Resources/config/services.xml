@@ -5,6 +5,14 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-
+        <service id="ProductFAQ\DAL\FAQDefinition">
+            <tag name="shopware.entity.definition" entity="n_faq"/>
+        </service>
+        <service id="ProductFAQ\DAL\Extension\ProductExtension">
+            <tag name="shopware.entity.extension"/>
+        </service>
+        <service id="ProductFAQ\DAL\Aggregate\FAQRelationDefinition">
+            <tag name="shopware.entity.definition" entity="n_faq_relation"/>
+        </service>
     </services>
 </container>
